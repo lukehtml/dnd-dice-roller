@@ -4,7 +4,8 @@ h1 {
 }
 button{
     font-family: 'Poppins', sans-serif;
-    
+    color: goldenrod;
+    background-color: #ffffff;
     vertical-align: middle;
     width: 15%;
     height: 15%;
@@ -12,4 +13,9 @@ button{
 }
 button:hover {
 
-    background: #fffafa};
+    background: #ebebeb};
+button:active {
+
+    background: #aeaeae;
+
+}
