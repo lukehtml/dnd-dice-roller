@@ -4,6 +4,7 @@ h1 {
 }
 button{
     font-family: 'Poppins', sans-serif;
-
+    text-align: center;
+    vertical-align: middle;
 }
 
