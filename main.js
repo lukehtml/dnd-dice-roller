@@ -1,16 +1,26 @@
-const button = document.getElementById("roll_button")
-function e() {
+const custom = document.getElementById("roll_button")
+const D4 = document.getElementById("D4")
+function d4() {
+     let resultd4 = Math.floor((Math.random() * 4) + 1)
+     alert(resultd4)
+
+}
+
+
+
+
+function custom_roll() {
     let result = Math.floor((Math.random() * prompt("sides?")) + 1)
     alert(result)
 }
 
-function e2() {
+function custom_times() {
     let times = 0
     let times2 = prompt("times?")
     while (times < times2) {
 
         times += 1
-        e()
+        custom_roll()
 
     }
 
@@ -18,4 +28,5 @@ function e2() {
 
 }
 
-button.onclick = e2
+custom.onclick = custom_times
+D4.onclick = d4
