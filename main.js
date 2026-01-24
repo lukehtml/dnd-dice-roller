@@ -4,6 +4,7 @@ const D6 = document.getElementById("D6") //d6
 const D8 = document.getElementById("D8") //d8
 const D10 = document.getElementById("D10") //d10
 const Dpercent = document.getElementById("D%") //d%
+const D20 = document.getElementById("D20") //d20
 
 
 function d4() {  //d4 function
@@ -37,6 +38,11 @@ function dper() { // d% func
      alert(resultdper)
 }
 
+function d20() { // d20 func
+    let resultd20 = Math.floor((Math.random() * 20) + 1)
+     alert(resultd20)
+}
+
 function custom_roll() { // custom sides
     let result = Math.floor((Math.random() * prompt("sides?")) + 1)
     alert(result)
@@ -62,3 +68,4 @@ D6.onclick =  d6
 D8.onclick = d8
 D10.onclick = d10
 Dpercent.onclick = dper
+D20.onclick = d20
