@@ -32,7 +32,7 @@ function d10() {  //d10 function
 
 }
 
-function dper() {
+function dper() { // d% func
     let resultdper = Math.floor((Math.random() * 100) + 1)
      alert(resultdper)
 }
@@ -55,7 +55,7 @@ function custom_times() { // custom times
 
 
 }
- // makes the buttons button
+ // makes the buttons do the functions
 custom.onclick = custom_times
 D4.onclick = d4
 D6.onclick =  d6
