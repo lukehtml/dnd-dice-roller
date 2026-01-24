@@ -6,10 +6,10 @@ button{
     font-family: 'Poppins', sans-serif;
     color: goldenrod;
     background-color: #ffffff;
-    vertical-align: middle;
-    width: 15%;
-    height: 15%;
-    font-size: 200%;
+    align-items: center;
+    width: 10%;
+    height: 10%;
+    font-size: 190%;
 }
 button:hover {
 
