@@ -27,6 +27,11 @@ function d10() {
     result.innerText = `result: ${resultd10}`
 }
 
+function d12() {
+    let resultd12 = Math.floor(Math.random() * 12) + 1
+    result.innerText = `result: ${resultd12}`
+}
+
 function dper() {
     let resultdper = Math.floor(Math.random() * 100) + 1
     result.innerText = `result: ${resultdper}`
@@ -63,5 +68,6 @@ D4.onclick = d4
 D6.onclick = d6
 D8.onclick = d8
 D10.onclick = d10
+D12.onclick = d12
 Dpercent.onclick = dper
 D20.onclick = d20
