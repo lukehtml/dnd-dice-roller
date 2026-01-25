@@ -2,21 +2,26 @@ h1 {
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
-button{
+
+button {
     font-family: 'Poppins', sans-serif;
+    font-size: 190%;       /* <-- your font size */
     color: goldenrod;
     background-color: #ffffff;
-    align-items: center;
     width: 10%;
     height: 10%;
-    min-width: 7%
-    font-size: 190%;
+    min-width: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  /* center text horizontally too */
+    border: none;             /* optional: remove default border */
+    cursor: pointer;          /* makes it look clickable */
 }
+
 button:hover {
+    background-color: #ebebeb;  /* fixed syntax, removed extra } */
+}
 
-    background: #ebebeb};
 button:active {
-
-    background: #aeaeae;
-
+    background-color: #aeaeae;  /* fixed syntax */
 }
